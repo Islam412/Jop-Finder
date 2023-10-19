@@ -20,4 +20,5 @@ class Jop(models.Model):
     created_at = models.DateTimeField(default=timezone.now())
     jop_nature = models.CharField(max_length=20,choices=JOP_TYPE)
 
-
+    def __str__(self):
+        return self.jop_title
