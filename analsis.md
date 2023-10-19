@@ -7,3 +7,7 @@ jop:
     salary
     create_at
     jop_nature
+        Full Time
+        Part Time
+        Remote
+        Freelance
